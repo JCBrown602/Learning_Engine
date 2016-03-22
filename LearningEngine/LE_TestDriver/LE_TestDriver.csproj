@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>962bcde6-fa0c-4d63-98f9-86036997e6bb</ProjectGuid>
+    <ProjectGuid>{8C683442-238F-4C7A-9074-F8B77F368969}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LE_TestDriver</RootNamespace>

@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningEngine", "LearningEngine\LearningEngine.csproj", "{F5B45318-56A7-45B4-A722-2E5DDFAC7C21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LE_TestDriver", "LE_TestDriver\LE_TestDriver.csproj", "{8C683442-238F-4C7A-9074-F8B77F368969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningEngine_DLL", "LearningEngine_DLL\LearningEngine_DLL.csproj", "{4BA4F312-F5AF-4BE2-A935-D5AC483D3E48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{F5B45318-56A7-45B4-A722-2E5DDFAC7C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B45318-56A7-45B4-A722-2E5DDFAC7C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B45318-56A7-45B4-A722-2E5DDFAC7C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C683442-238F-4C7A-9074-F8B77F368969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C683442-238F-4C7A-9074-F8B77F368969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C683442-238F-4C7A-9074-F8B77F368969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C683442-238F-4C7A-9074-F8B77F368969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA4F312-F5AF-4BE2-A935-D5AC483D3E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA4F312-F5AF-4BE2-A935-D5AC483D3E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA4F312-F5AF-4BE2-A935-D5AC483D3E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA4F312-F5AF-4BE2-A935-D5AC483D3E48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
