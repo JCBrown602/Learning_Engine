@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e089239d-4f93-4051-8530-57630a18d069" name="LearningEngine" linkedPackageId="0be6bdc1-3a36-4ea3-a635-10597cf3b4f3" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="83cfb976-5d09-4cde-9231-b81c1e34812a">
+      <profileInstance Id="cd5ed10f-ab2f-424c-9493-e15bb9b11ef2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ff79b78d-e5ae-4055-8e84-d49b8b2bee79">
+      <profileInstance Id="4e2f7899-cf02-4d4f-8eaa-1042e530f260" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0e513d25-d59c-458f-af6f-5baaa1875e2f" name="LoginProcess" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ad6cb25b-1ad8-4e05-b165-8dcad96309c2" />
+        <ownedAttributesInternal>
+          <property Id="afd730e4-8011-4498-9a4e-549f70c90918" name="userName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c15a2a4b-cf08-4ae1-815f-43df7988b4d6" />
+          </property>
+          <property Id="063c4279-5cff-4284-9fb1-e2e9f0bf5f28" name="password" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="74ec6039-63df-48b5-bd17-6d687c475856" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5bc993a4-1b7a-4d41-b00a-6831c85b40d3" name="LoginLocal" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ce3cff54-4e09-444f-97be-ac31f2a5499b" />
+          </operation>
+          <operation Id="3fcfa21e-8142-4c20-86c0-531ccbf21cd3" name="LoginNet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="96071c7c-7796-4ce0-a44e-16743da2ec7e" />
+          </operation>
+          <operation Id="a184f63a-f729-4044-acac-090661382bd6" name="CheckNet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cb0a37ff-ff61-4366-92dd-a678f9194a52" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c385a939-9fe4-452b-8100-e4f12160eea8" name="PersonalRecord" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b47e2d29-e9fb-4a0f-8d5f-e05b8259df06" />
+        <ownedAttributesInternal>
+          <property Id="5290bc16-a431-4c54-b57b-de5526cf800b" name="sessionDTG" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e8f468f9-4045-4042-9371-a9c98c2e1f41" />
+          </property>
+          <property Id="bed9d285-e2d5-4510-a33e-db95788bcb31" name="numCorrect" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5ecdb075-436e-47fd-9b24-4add967f5b05" />
+          </property>
+          <property Id="29ac4c1b-0f1f-4872-92be-ac903f0866b3" name="numWrong" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e1cf937a-5238-42bf-b661-9c8281e10b4a" />
+          </property>
+          <property Id="faae61f3-7c86-4e19-bc3c-4b3253044e27" name="percentage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d01cde3f-2f8e-44a2-a009-225724938a35" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="2f3221ba-9097-4305-b02a-c98c9f8b040c" name="GetFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="32bb704b-14cf-40eb-bc0f-2aa7a3c2f795" />
+          </operation>
+          <operation Id="ea5bd655-1c53-45fd-bc24-33d330d9a4fb" name="SaveFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f9fa8771-58d5-4561-b1a6-2034c26f124c" />
+          </operation>
+          <operation Id="22eb0a5f-b3c9-473c-8fab-9973dfcec8c3" name="UploadFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d1ea81d9-4664-4dca-a098-875cbfe548d7" />
+          </operation>
+          <operation Id="ba73c10e-3363-40a0-a91a-7fc48416bf83" name="DownloadFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b626c8c5-352a-415f-a0d0-a1ab05a31627" />
+          </operation>
+          <operation Id="13fd07fd-e524-423b-aaa2-0a9adb185624" name="SyncFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="94a4b578-ebfa-4cff-82dd-4f8b7a1c6665" />
+          </operation>
+          <operation Id="322af06b-1af7-44a6-8633-1ab55c1958d1" name="CreateFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2dde5195-b42d-4572-a1b6-a0e17a63ed17" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="65258124-9a82-47a3-88c1-81406e066b3d" name="StudyFiles" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="46c32d6c-0ee4-4736-8a7e-2d2c7bd25774" />
+        <ownedAttributesInternal>
+          <property Id="33a1f70c-0b18-468d-8859-16ea55129b93" name="fileName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fe348971-6670-4cdd-a745-94a90e4bfbdf" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e2b168e4-aa35-4642-b0c3-a62ed6249e4f" name="CreateFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="470ff9d5-fb3b-4ad9-802f-43cb2cb348fe" />
+          </operation>
+          <operation Id="d92ba772-94ef-4b20-9a5c-c5b5461421ac" name="GetFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="349cbb62-4cda-4653-aa59-088acabbff3e" />
+          </operation>
+          <operation Id="62869fdc-08f3-4dfd-b7fe-78acf82888be" name="UploadFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9d66ac94-3b94-48c6-85e7-96e98b308e6b" />
+          </operation>
+          <operation Id="a83e834c-7ef1-4588-a5f9-5c880353c45c" name="DownloadFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="75972841-b121-4627-a7a4-09f0a6ed0c4c" />
+          </operation>
+          <operation Id="86ecfc09-4904-499a-9278-de06403e9490" name="SyncFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ba0af91f-56b8-440a-b8d3-6835fbc24eb9" />
+          </operation>
+          <operation Id="6185b5b5-fb27-434c-a3a3-a1797cce04d8" name="SaveFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8a606338-1cb3-4eb8-a628-e72b0b4a209e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0409b3b6-35a5-4a34-99f1-0e4a86b246d5" name="Analytics" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b31d0b4a-60db-4afb-99e7-dfd1da4f5511" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9b64b957-73d6-42a8-b747-e503cdf8071c" name="Crypto" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a9c27bb5-1b03-48f8-8eb9-f7aff3625802" />
+        <ownedAttributesInternal>
+          <property Id="68835283-1a2b-4c43-9e68-2d74d72bc927" name="localKey" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0c78d318-a0b9-4f19-83e7-4ed2f6ff1b64" />
+          </property>
+          <property Id="05845ee6-c985-46aa-91e3-7eb37ad6c431" name="publicKey" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6dba89fa-b2be-48d6-8c16-8f0bb8f638cf" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="cf69d3af-9b20-4264-b8af-3ebe98cbdbea" name="EncryptCreds" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6494a919-d18c-4359-9379-5ef2440473a3" />
+          </operation>
+          <operation Id="fde0315b-0481-4701-8cdd-2cb94101d993" name="EncryptFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9b5ac2f1-a4b7-481e-b2f5-0b95e92e6ff0" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="0be6bdc1-3a36-4ea3-a635-10597cf3b4f3" name="ModelingProject1">
+    <elementDefinition Id="8eebca51-fd81-47f6-a198-eac049627d53" />
+  </package>
+</logicalClassDesignerModel>

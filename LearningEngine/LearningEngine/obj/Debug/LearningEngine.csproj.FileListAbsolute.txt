@@ -1,1 +1,9 @@
 C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\bin\Debug\LearningEngine.exe.config
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\bin\Debug\LearningEngine.exe
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\bin\Debug\LearningEngine.pdb
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\obj\Debug\LearningEngine.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\obj\Debug\LearningEngine.Form1.resources
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\obj\Debug\LearningEngine.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\obj\Debug\LearningEngine.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\obj\Debug\LearningEngine.exe
+C:\Users\Administrator\Documents\GitHub\Learning_Engine\LearningEngine\LearningEngine\obj\Debug\LearningEngine.pdb
